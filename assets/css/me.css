@@ -117,6 +117,8 @@ body.page-template-page-fullsingle-me {
     color: #000000; }
 
 .fs-me {
+  background-color: rgba(100, 100, 100, 0.3);
+  height: 94vh;
   padding: 3vh 10vw;
   overflow: hidden;
   position: absolute;
