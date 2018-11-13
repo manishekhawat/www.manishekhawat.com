@@ -205,6 +205,7 @@ html {
 body.page-template-page-fullsingle-me {
   height: 100vh;
   background-color: #cccccc;
+  background-image: url('../../images/background-compressed-low.jpg');
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 45px;
@@ -225,8 +226,8 @@ body.page-template-page-fullsingle-me p {
   overflow: hidden;
   position: absolute;
   z-index: 1000;
-  -webkit-animation: fadein 5s;
-  animation: fadein 5s;
+  -webkit-animation: fadein 2.5s;
+  animation: fadein 2.5s;
 }
 @media (max-width: 500px) {
   .fs-me {

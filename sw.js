@@ -5,6 +5,7 @@ var cached_urls = [
   '/?source=pwa',
   'assets/css/me.css',
   'images/sig.png',
+  'images/background-compressed-low.jpg',
   'favicon-196x196.png'
 ];
 
