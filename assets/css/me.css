@@ -6,7 +6,6 @@ Template URI: https://onepagelove.com/me
 Description: Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo, bio and icons.
 */
 /* -- CSS Reset -- */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 html,
 body,
 div,
@@ -199,41 +198,39 @@ a:hover {
 }
 
 html {
-  background-color: #141414;
+  background-color: #ffffff;
 }
 
 body.page-template-page-fullsingle-me {
   height: 100vh;
-  background-color: #cccccc;
-  background-image: url('../../images/background-compressed-low.jpg');
-  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  background-image: url('../../images/background-compressed-low_cropped.jpg');
+  background-repeat: no-repeat;
+  font-family: "Roboto Condense", sans-serif;
   font-weight: 500;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: -0.5px;
-  color: #000000;
-  background-size: cover;
+  color: #ffffff;
+  background-size: 100% 100%;
  }
 body.page-template-page-fullsingle-me p {
   margin-bottom: 28px;
-  color: #000000;
+  color: #ffffff;
+}
+
+.me-content {
+  padding: 5vh 10vw;
 }
 
 .fs-me {
   background-color: rgba(100, 100, 100, 0.3);
-  height: 94vh;
-  padding: 3vh 10vw;
-  overflow: hidden;
+  height: 145%; 
+  width:99.9vw;
   position: absolute;
   z-index: 1000;
-  -webkit-animation: fadein 2.5s;
-  animation: fadein 2.5s;
-}
-@media (max-width: 500px) {
-  .fs-me {
-    padding: 2vh 2vw;
-    text-align: center;
-  }
+  -webkit-animation: fadein 1.5s;
+  animation: fadein 1.5s;
 }
 
 .bio {
@@ -248,11 +245,11 @@ body.page-template-page-fullsingle-me p {
   }
 }
 .bio a {
-  color: #ffffff;
+  color: #000000;
   transition: 0.5s;
 }
 .bio a:hover {
-  color: #000000;
+  color: #ffffff;
   transition: 0.5s;
 }
 
@@ -301,12 +298,16 @@ body.page-template-page-fullsingle-me p {
   opacity: 1;
 }
 .credit p a {
-  color: #000000;
+  color: #ffffff;
 }
 
 @media (max-width: 800px) {
   .credit p {
     margin: 0px;
+  }
+
+  .logo img {
+    width: 75%;
   }
 }
 

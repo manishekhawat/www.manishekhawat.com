@@ -6,7 +6,10 @@ var cached_urls = [
   'assets/css/me.css',
   'images/sig.png',
   'images/background-compressed-low.jpg',
-  'favicon-196x196.png'
+  'images/manish_background_cropped.jpg',
+  'images/background-compressed-low_cropped.jpg',
+  'favicon-196x196.png',
+  'https://fonts.googleapis.com/css?family=Roboto+Condensed'
 ];
 
 self.addEventListener('install', function(event) {
