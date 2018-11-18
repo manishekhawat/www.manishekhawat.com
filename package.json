@@ -1,0 +1,18 @@
+{
+  "name": "manishekhawat",
+  "version": "0.3.0",
+  "description": "Profile Page template experiment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishekhawat/www.manishekhawat.com.git"
+  },
+  "author": "manishekhawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishekhawat/www.manishekhawat.com/issues"
+  },
+  "homepage": "https://github.com/manishekhawat/www.manishekhawat.com#readme"
+}
