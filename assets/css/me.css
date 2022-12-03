@@ -225,7 +225,7 @@ body.page-template-page-fullsingle-me p {
 
 .fs-me {
   background-color: rgba(100, 100, 100, 0.3);
-  height: 145%; 
+  height: 100%; 
   width:99.9vw;
   position: absolute;
   z-index: 1000;
