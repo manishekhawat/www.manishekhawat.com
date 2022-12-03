@@ -213,6 +213,7 @@ body.page-template-page-fullsingle-me {
   letter-spacing: -0.5px;
   color: #ffffff;
   background-size: 100% 100%;
+  display: flex;
  }
 body.page-template-page-fullsingle-me p {
   margin-bottom: 28px;
@@ -220,12 +221,14 @@ body.page-template-page-fullsingle-me p {
 }
 
 .me-content {
-  padding: 5vh 10vw;
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 .fs-me {
   background-color: rgba(100, 100, 100, 0.3);
-  height: 145%; 
+  height: 100%; 
   width:99.9vw;
   position: absolute;
   z-index: 1000;
